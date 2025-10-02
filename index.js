@@ -32,7 +32,7 @@ client.on('messageCreate', async message => {
         .setThumbnail('https://media.discordapp.net/attachments/1420467714295595048/1422700196592226375/-.png?ex=68def1cf&is=68dda04f&hm=648aefbc8ad1e7743436422d0fdc1881b808d434c884f785836b1022ddc34514&=&format=webp&quality=lossless&width=744&height=744')
         .setTitle('قوانين السيرفر')
         .setDescription('**الرجاء اختيار احد القوانين لقرائته من قائمة الاختيارات تحت**')
-        .setImage('https://media.discordapp.net/attachments/1420467714295595048/1422700197854576782/6dbbf84b44e5a8ff.png?ex=68def1cf&is=68dda04f&hm=bf10612db3fd50b147adfa9c11a2c31736ef70798845af1c4afc108f202afc30&=&format=webp&quality=lossless&width=1323&height=744')
+        .setImage('https://cdn.discordapp.com/attachments/1420467714295595048/1422700197854576782/6dbbf84b44e5a8ff.png?ex=68def1cf&is=68dda04f&hm=bf10612db3fd50b147adfa9c11a2c31736ef70798845af1c4afc108f202afc30&')
         .setFooter({ text: 'Rules Bot' })
         .setTimestamp();
 
@@ -62,4 +62,3 @@ client.on('interactionCreate', async (interaction) => {
 startServer();
 
 client.login(process.env.TOKEN);
-
